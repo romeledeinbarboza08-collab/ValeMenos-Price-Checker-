@@ -7,7 +7,7 @@ import zlib from 'node:zlib';
 // Nos identificamos con un nombre propio, como prometimos en el documento de diseño.
 // Nota: VTEX (Walmart, MaxiPalí, Simán) responde 429 a cualquier nombre que diga "bot",
 // así que usamos "Vale/1.0". Seguimos diciendo quiénes somos; no nos hacemos pasar por navegador.
-export const AGENTE = 'Vale/1.0 (comparador de precios; +https://vale-cr.netlify.app/#/sobre)';
+export const AGENTE = 'Vale/1.0 (comparador de precios; +https://valemenos.netlify.app/#/)';
 
 export async function pedir(url, { tiempo = 8000, json = true, ...opciones } = {}) {
   const intentar = () => fetch(url, {

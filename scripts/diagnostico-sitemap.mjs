@@ -44,7 +44,7 @@ for (const u of urls.slice(0, 3)) {
 console.log('\n4) Respuesta cruda de la primera página');
 if (urls[0]) {
   try {
-    const r = await fetch(urls[0], { redirect: 'manual', headers: { 'User-Agent': 'Vale/1.0 (comparador de precios; +https://vale-cr.netlify.app/#/sobre)' } });
+    const r = await fetch(urls[0], { redirect: 'manual', headers: { 'User-Agent': 'Vale/1.0 (comparador de precios; +https://valemenos.netlify.app/#/)' } });
     console.log(`   HTTP ${r.status}  location: ${r.headers.get('location') || '-'}`);
   } catch (e) {
     const c = e.cause || {};
