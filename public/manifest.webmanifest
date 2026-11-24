@@ -1,0 +1,11 @@
+{
+  "name": "Vale Menos",
+  "short_name": "Vale Menos",
+  "description": "Compará precios en tiendas de Costa Rica, con envío incluido.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2f4fd8",
+  "lang": "es-CR",
+  "icons": [{ "src": "/img/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }]
+}
